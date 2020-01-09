@@ -1,4 +1,5 @@
 # Housing Project
+This repository houses the frontend for our housing site. For the backend see [Housing Project Server](https://github.com/ud-cs-social-good/Housing-Server)
 
 ## Winter Session Project Spec
 * Working OAuth
