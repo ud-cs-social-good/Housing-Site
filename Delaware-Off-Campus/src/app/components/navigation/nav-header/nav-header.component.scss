@@ -1,13 +1,13 @@
 @import 'src/variables.scss';
 nav {
   display: flex;
-  background-color:#F7D1C5;
-  font-family: 'Montserrat', sans-serif;
+  background-color: $bg-2;
   flex-flow:row;
   width: 100%;
   justify-content: space-between;
   align-items:center;
-  border-bottom: solid 0.0625rem rgba(0,0,0,0.075);
+  // box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-bottom: 0.25rem solid $bg-3;
 }
 
 .title {
@@ -31,22 +31,13 @@ nav li {
 
 .navlink {
   cursor:pointer;
-  height:3rem;
+  height:2rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
   display:flex;
   align-items:center;
   padding-left:0.5rem;
   padding-right:0.5rem;
-  border-left: solid 0.0625rem rgba(0,0,0,0.075);
-  border-right: solid 0.0625rem rgba(0,0,0,0.075);
-}
-
-.navlink-middle {
-  border-left:none;
-  border-right:none;
-  margin-left:-0.0625rem;
-  margin-right:-0.0625rem;
-  padding-left: 0.5625rem;
-  padding-right: 0.5625rem;
 }
 nav li {
   padding:0;
@@ -61,11 +52,11 @@ a{
 .navlink:hover {
   text-decoration: unset;
   color: unset;
-  background-color:rgba(0,0,0,0.025);
+  background-color: $bg-3;
 }
 
 .navlink:active {
   text-decoration: unset;
   color: unset;
-  background-color:rgba(0,0,0,0.05);
+  background-color: #F1E0D4;
 }
