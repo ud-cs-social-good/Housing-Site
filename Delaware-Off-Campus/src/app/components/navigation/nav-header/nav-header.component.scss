@@ -1,19 +1,71 @@
+@import 'src/variables.scss';
 nav {
   display: flex;
-  align-content: space-between
+  background-color:#F7D1C5;
+  font-family: 'Montserrat', sans-serif;
+  flex-flow:row;
+  width: 100%;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom: solid 0.0625rem rgba(0,0,0,0.075);
 }
 
-li {
+.title {
+  margin-left:0.75rem;
+  font-size:1rem;
+  font-weight:700;
+}
+
+nav ul {
+  list-style-type: none;
+  display:flex;
+  padding:0;
+  margin:0;
+  height:100%;
+  margin-right:0.75rem;
+}
+
+nav li {
+  font-size:0.8rem;
+}
+
+.navlink {
+  cursor:pointer;
+  height:3rem;
+  display:flex;
+  align-items:center;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  border-left: solid 0.0625rem rgba(0,0,0,0.075);
+  border-right: solid 0.0625rem rgba(0,0,0,0.075);
+}
+
+.navlink-middle {
+  border-left:none;
+  border-right:none;
+  margin-left:-0.0625rem;
+  margin-right:-0.0625rem;
+  padding-left: 0.5625rem;
+  padding-right: 0.5625rem;
+}
+nav li {
+  padding:0;
+  margin:0;
+}
+
+a{
   text-decoration: unset;
   color: unset;
 }
 
-li:hover {
+.navlink:hover {
   text-decoration: unset;
   color: unset;
+  background-color:rgba(0,0,0,0.025);
 }
 
-li:active {
+.navlink:active {
   text-decoration: unset;
   color: unset;
+  background-color:rgba(0,0,0,0.05);
 }

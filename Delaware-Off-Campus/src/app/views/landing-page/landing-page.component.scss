@@ -1,0 +1,12 @@
+@import 'src/variables.scss';
+
+header {
+  color: $primary;
+  background-color: $bg;
+  min-height:15rem;
+  padding: 2rem;
+}
+
+header >* {
+  margin:1rem;
+}
