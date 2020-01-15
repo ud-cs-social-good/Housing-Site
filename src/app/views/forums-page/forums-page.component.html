@@ -1,1 +1,22 @@
-<p>forums-page works!</p>
+<header>
+  <h1>Recent Postings</h1>
+</header>
+<section class="content">
+  <div class="posts">
+    <ng-template ngFor let-post [ngForOf]="posts">
+      <div class="post">
+        <div class="post-info">
+          <div class='name'><b>User:</b> {{ post.username }}</div>
+          <div class='date'><b>Date:</b> {{ post.date }}</div>
+        </div>
+        <div class="post-title">
+          <h2>{{ post.title}}</h2>
+          <p>{{ post.location }}</p>
+        </div>
+        <div class="post-social">
+          {{ post.comments.length }} Comments
+        </div>
+      </div>
+    </ng-template>
+  </div>
+</section>

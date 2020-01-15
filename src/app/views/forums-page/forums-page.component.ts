@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PostsService } from 'src/app/services/forum/posts.service'
 
 @Component({
   selector: 'app-forums-page',
@@ -6,14 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./forums-page.component.scss']
 })
 export class ForumsPageComponent implements OnInit {
-
-  constructor() { }
+  posts = []
+  constructor(private _post_svc: PostsService) { }
 
   ngOnInit() {
+    this.posts = this._post_svc.getposts()
   }
 
   public createPost(PostTitle:String) {
-	
+
   }
 
 }
