@@ -18,34 +18,30 @@ header >* {
 }
 
 .posts {
-  max-width:60rem;
+  max-width:55rem;
   width:100%;
-  background-color: $bg-3;
-  margin: 1rem;
-  padding: 1rem;
+  background-color: $bg-4;
+  margin: 1.5rem;
+  padding-bottom: 1px;
 }
 
 .post {
   background-color: $bg-2;
   padding: 1rem;
-  margin: 0.25rem;
+  margin: 1px;
   margin-bottom: 0;
   cursor: pointer;
-  border-bottom: solid 0.2rem $bg-2;
-  border-top: solid 0.2rem $bg-2;
 }
 
 .post:hover {
-  background-color: $bg-2;
-  border-bottom: solid 0.2rem $bg-1;
-  border-top: solid 0.2rem $bg-1;
+  background-color: $bg-3;
 }
 
 .post-info {
   display:flex;
 }
 .post-info >* {
-  background-color: $bg-3;
+  background-color: $bg-4;
   padding:0.25rem;
   font-size:0.9rem;
 }
@@ -66,6 +62,6 @@ header >* {
 }
 
 .post-social {
-  color: $bg-1;
+  color: $secondary;
   font-size:0.9rem;
 }
