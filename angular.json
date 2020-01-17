@@ -122,8 +122,13 @@
               "devServerTarget": "Delaware-Off-Campus:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Delaware-Off-Campus"
 }
