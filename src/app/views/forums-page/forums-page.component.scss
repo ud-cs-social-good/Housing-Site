@@ -39,6 +39,10 @@ header >* {
   border: 1px solid $secondary;
 }
 
+.post:active {
+  border: 1px solid $secondary;
+}
+
 
 .post-info {
   color:$secondary;
