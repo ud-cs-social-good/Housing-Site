@@ -36,12 +36,9 @@ header >* {
 }
 
 .post:hover {
-  background-color: $bg-3;
+  border: 1px solid $secondary;
 }
 
-.post:active {
-  background-color: $bg-5;
-}
 
 .post-info {
   color:$secondary;
