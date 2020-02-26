@@ -36,16 +36,16 @@ header >* {
 }
 
 .post:hover {
-  border: 1px solid $secondary;
+  border: 1px solid $primary;
 }
 
 .post:active {
-  border: 1px solid $secondary;
+  border: 1px solid $primary;
 }
 
 
 .post-info {
-  color:$secondary;
+  color:$primary;
   display:flex;
   padding-bottom: 0.25rem;
 }
@@ -76,5 +76,5 @@ header >* {
 }
 
 .post-social {
-  color: $secondary;
+  color: $primary;
 }
