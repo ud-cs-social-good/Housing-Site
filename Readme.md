@@ -11,6 +11,10 @@ Clone the repo:
 ```sh
 git clone https://github.com/ud-cs-social-good/Housing-Site
 ```
+Enter the directory:
+```sh
+cd Housing-Site
+```
 Install dependencies
 ```sh
 npm install
